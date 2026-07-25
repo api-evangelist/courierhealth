@@ -1,8 +1,16 @@
 aid: courierhealth
-name: Courierhealth
-description: 'Courierhealth is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+name: Courier Health
+description: >-
+  Courier Health is the patient experience platform for life sciences and biopharma.
+  It gives pharmaceutical patient services, market access, and field reimbursement
+  teams a single command center to manage the patient journey from prescription
+  through long-term treatment adherence, using AI-generated patient summaries,
+  workflow automation and orchestration, and integration of data across systems and
+  partners. The company reports gains in patient starts, six-month persistency, and
+  team productivity, and delivers the product as a HIPAA-compliant, SOC 2 Type II
+  SaaS platform. Courier Health is backed by Norwest Venture Partners. No public
+  developer or API surface was found during enrichment; this profile captures the
+  company identity and its published security/compliance posture.
 url: https://raw.githubusercontent.com/api-evangelist/courierhealth/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +18,32 @@ x-backed-by:
 - norwest-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/65e8c07a94632ffc7f93d9e0/69e55910a2b405e106f528f1_courier-health-open-graph-image-home-v2.webp
 tags:
 - Company
-- Unknown
+- Healthcare
+- Life Sciences
+- Biopharma
+- Pharma
+- Patient Experience
+- Patient Services
+- Market Access
+- SaaS
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +52,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://courierhealth.com
+  url: https://www.courierhealth.com
+- type: Blog
+  url: https://www.courierhealth.com/resources
+- type: Login
+  url: https://app.courierhealth.com/login
+- type: PrivacyPolicy
+  url: https://www.courierhealth.com/privacy
+- type: Compliance
+  url: https://www.courierhealth.com
+- type: Conformance
+  url: conformance/courierhealth-conformance.yml
+- type: DomainSecurity
+  url: security/courierhealth-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

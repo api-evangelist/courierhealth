@@ -1,0 +1,16 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.courierhealth.com/ (compliance badges published sitewide in footer)
+standards:
+- id: soc2-type-ii
+  conforms: true
+  evidence: AICPA SOC 2 Type II compliance badge published in the site footer.
+- id: hipaa
+  conforms: true
+  evidence: HIPAA compliance badge published in the site footer; compliance contact compliance@courierhealth.com.
+notes: >-
+  Courier Health is a patient experience platform for life sciences and handles
+  protected health information, so its published posture centers on SOC 2 Type II
+  and HIPAA. No public developer/API surface, OpenAPI, or dedicated trust center
+  page was found, so cross-cutting API standards (oauth2, rfc9457, fhir, etc.)
+  could not be asserted.
